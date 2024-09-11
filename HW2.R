@@ -14,7 +14,6 @@ library(stringr)# This loads the packages necessary to run your plots. Do not de
 
 ### Exercise 1
 
-library(tidyverse)
 spx_1Month <- read_csv("SPX-1Month.csv")
 
 spx_plot1<- ggplot(spx_1Month, mapping=aes(Date, `Close/Last`)) + 
